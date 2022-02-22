@@ -44,7 +44,7 @@ function AppHeader() {
 
                     <div className="header-right">
                         {/* Provide cart routing link */}
-                        <Link type="button" className="btn btn-success" to="#">
+                        <Link type="button" className="btn btn-success" to="/cart">
                             <i className="fas fa-shopping-cart" />&nbsp; My Cart &nbsp;
                             <span className="badge badge-light">
                                 {cartCount}
@@ -69,7 +69,7 @@ function AppHeader() {
                 </div>
             </nav>
 
-            {/* 
+            {/*
                 Routing configuration to different components
             */}
 
